@@ -23,8 +23,6 @@ for index in range(len(chars)):
         result += chr((ch + 4) // 6)
     elif index < 10:
         result += chr(ch)
-    elif index > 100:
-        result += chr(int(ch ** 0.5) -- 100)
     else:
         result += chr(300 - ch)
 
